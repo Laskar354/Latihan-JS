@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+
+body {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+    border: 5px solid black;
+    overflow: auto;
+}
+
+.image {
+    width: 200px;
+    float: left;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+.image:hover {
+    opacity: 0.5;
+}
+
+@keyframes fadeIn{
+    to {
+        opacity: 1;
+    }
+}
+
+.fade {
+    opacity: 0.5;
+    animation: fadeIn 0.5s forwards ;
+}
+
+.samar {
+    opacity: 0.3;
+}
